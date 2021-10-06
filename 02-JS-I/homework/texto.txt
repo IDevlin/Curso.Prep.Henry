@@ -1,0 +1,28 @@
+Variables:
+Es un espacio en la memoria del computador
+como si fuese una caja, podemos guardar cosas
+como datos y estados para sacarlos y usarlos cada vez 
+los necesitemos
+
+Sring: es un tipo de dato que lee la computadora
+que consiste en una cadena de bloques de texto 
+
+Funciones: son una forma de encapsular () una funcionalidad 
+que se puede invocar escribiendo solo el nombre de la funcion
+cada vez que se necesite sin necesidad
+de volver a escribir el codigo nuevamente, dentro de las
+funciones puedes almacenar variables se ejecutan dentro de {}
+
+Argumento: es el valor de entrada en una funcion ej.
+function saludar('hola,nommbre','edad') {
+    console.log('hola'+ nombre + edad)
+}
+retun: indica que la funcion termina y retorna un valor,
+ solo lee lo que esta antes del return esa seccion de codigo
+ que se lee desde que empieza la funcion hasta el return se
+conoce como scoope el interprete lee la parte de codigo 
+
+Boolean: es un tipo de dato que procesa la computadora 
+donde solo pueden obtenerse dos opciones si,no, verdero o falso,
+activado o desactivado
+
