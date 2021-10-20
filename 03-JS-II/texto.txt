@@ -6,6 +6,7 @@ se repiten mientras se cumpla una condición determinada.
 || OR ('OR')
 ! NEGACION 'NOT ('NO')
 
+
  
  
  function nombreDeLaFuncion (argumento1, argumento2) {
