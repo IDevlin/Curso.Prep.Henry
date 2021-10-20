@@ -1,0 +1,63 @@
+ 
+ //Un bucle for es una estructura en la que una o varias instrucciones
+se repiten mientras se cumpla una condición determinada.
+
+&&, ||, ! son operadores logicos && 'Y' ('AND')
+|| OR ('OR')
+! NEGACION 'NOT ('NO')
+
+ 
+ 
+ function nombreDeLaFuncion (argumento1, argumento2) {
+     // codigo de la funcion
+ }
+
+ flujos de control 
+//statement
+if ( condicion) {
+    //codigo
+}
+if (){
+ console.log('este codigo se ejecuta si es true')   
+} else {
+    console.log (este codigo se ejecuta si es false )
+}
+//cualquer numero exepto el 0 es true para JS
+//todas las strings son true exepto el string vacio
+ 1>2
+ false
+ !1>2
+ true
+ !1
+ false
+ 
+COMPARACIONES
+1<=1
+true
+ 1!==2
+ true
+*tabla de la verdad 
+//AND y &&
+//OR O ||
+//NOT NO !
+
+a && a
+un bloque for nos ayuda a repetir un bloque de codigo muchas veces
+
+for (var i=0; i<= 100; i++) {
+
+}
+//partes del bucle for
+variable para contar la cantidad de repeticiones que se va haciendo codigo
+condicion de frenado cuando quieres que se deje de ejecutar
+como quieres que se vaya incrementado el valor de la variable codigo
+//IMPRIME LOS NUMEROS DEL 1 AL 100
+//FUNCION QUE IMPRIMA LOS NUMEROS DE 1 A N
+
+function imprime1aN (n){
+for(var i =1; i<=n; i++) {
+     if (i % 2===0)
+     console.log(i)
+     }
+ }
+ imprime1aN(120)
