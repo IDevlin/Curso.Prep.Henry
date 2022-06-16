@@ -1,6 +1,8 @@
 // Do not change any of the function names
 
 function mayuscula(nombre) {
+  
+    return nombre[0].toUpperCase()+ nombre.slice(1)
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
@@ -8,13 +10,14 @@ function mayuscula(nombre) {
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
-  //Tu código:
+    return cb()
 }
 
 function operacionMatematica(n1, n2, cb) {
   //Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
   //Devolver el callback pasándole como argumentos los números recibidos.
   //Tu código:
+  return cb(n1,n2)
 }
 
 function sumarArray(numeros, cb) {
@@ -22,6 +25,11 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
+  suma = 0
+  for(let i = 0; i<=numeros.length-1; i++){
+    sum =+ numeros[i]
+  };
+    cb(suma);
 }
 
 function forEach(array, cb) {
